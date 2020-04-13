@@ -1,0 +1,16 @@
+.container{
+    margin:2rem 2rem;
+    padding:15rem;
+    display:flex;
+    flex-direction: column;
+    background: black;
+}
+.heading{
+    font-weight: 700;
+    font-size: 6rem;
+    color:rgb(60, 184, 38);
+}
+.heading:hover{
+    color:rgb(246, 17, 48);
+   
+}

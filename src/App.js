@@ -1,10 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+
 import MainPage from './Pages/MainPage';
 import About from './Pages/About';
 import Skill from './Pages/Skill';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import MainNavigation from './NavigationBar/MainNavigation';
 
 
 // import MainNavigation from './Shared/Components/Navigation/MainNavigation';
@@ -13,8 +15,10 @@ import './App.css';
 
 const  App =() => {
   return (
-    
+    <React.Fragment>
+
     <Router>
+    <MainNavigation />
       <Switch>
     <Route path ='/'exact>
       <MainPage />
@@ -34,9 +38,7 @@ const  App =() => {
     <Redirect to='/' />
     </Switch>
     </Router>
-
- 
- 
+    </React.Fragment>
   )
 }
 

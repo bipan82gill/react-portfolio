@@ -1,5 +1,6 @@
 .section_contact{
-    padding :15rem 20rem;
+    margin-top: 5rem;
+    padding :10rem 15rem;
     width:95%vh;
     background-image: linear-gradient(105deg,
      rgba(207, 226, 35, 0.897) 0%,rgba(207, 226, 35, 0.897) 30%, rgba(111, 226, 35, 0.897)70%);
@@ -7,20 +8,10 @@
     box-shadow:0 1.5rem 4rem rgba(black, .15);
     background-size:cover;
 }
-/* .contact{
-    padding:20rem;
-    background-image: linear-gradient(105deg,
-     rgba(255, 255, 255, .9) 0%,rgba(255, 255, 255, .9) 30%, rgba(207, 226, 35, 0.897)70%);
-    border-radius:3px;
-    box-shadow:0 1.5rem 4rem rgba(black, .15);
-    background-size:cover;
-    width:80%vh;
-
-} */
 .contact_form{
-    max-width: 70%wv;
-    height:70%hv;
-    padding:20rem;
+    max-width: 80%wv;
+    height:80%hv;
+    padding:2rem;
 }
 .form_input{
     font-size:2rem;
