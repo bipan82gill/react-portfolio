@@ -10,7 +10,7 @@ const MainPage = () => {
                 <span className = "heading-primary--main">Portfolio</span>
                 <span className = "heading-primary--sub">Bipanjeet Kaur Gill</span>
             </h1>
-            <a href ="#" className = "btn btn-white btn--animated">About me</a>
+            <a href ="/about" className = "btn btn-white btn--animated">About me</a>
         </div>
     </header>
 
