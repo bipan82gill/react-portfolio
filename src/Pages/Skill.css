@@ -1,9 +1,10 @@
-.container{
+.container-skills{
     margin:2rem 2rem;
     padding:15rem;
     display:flex;
     flex-direction: column;
     background: black;
+    align-items: center;
 }
 .heading{
     font-weight: 700;
